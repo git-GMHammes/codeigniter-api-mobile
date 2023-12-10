@@ -35,6 +35,50 @@ O widget `Scaffold` no Flutter é um componente fundamental para a construção 
 7.  **SnackBar**: Possibilita a exibição de mensagens rápidas e informativas na parte inferior da tela.
     
 8.  **Background Color**: Permite definir a cor de fundo para toda a tela.
-    
-
+   
 O `Scaffold` é um widget muito versátil e quase indispensável na maioria das interfaces de usuário criadas com Flutter. Ele simplifica a construção de layouts comuns, garantindo consistência e eficiência no desenvolvimento de apps.
+
+
+
+Aqui está a lista das palavras reservadas e nomes de funções no código fornecido, junto com suas funções:
+
+1.  **import**: Usado para incluir bibliotecas externas no código. Aqui, importa o pacote `material.dart` do Flutter, que fornece uma ampla gama de widgets e ferramentas de design de interface.
+    
+2.  **void**: Indica que a função `main` não retorna um valor.
+    
+3.  **main()**: É o ponto de entrada para a execução do aplicativo Flutter. Esta função é chamada quando o aplicativo é iniciado.
+    
+4.  **runApp()**: Uma função do Flutter que toma um dado Widget e o torna a raiz do widget tree. Neste caso, ele está tomando uma instância de `MyApp` como o widget raiz.
+    
+5.  **const**: Uma palavra-chave usada para declarar constantes em Dart. É usada aqui para criar instâncias imutáveis de widgets, o que melhora o desempenho.
+    
+6.  **class**: Usada para definir uma classe em Dart. Aqui, define a classe `MyApp`.
+    
+7.  **extends**: Usada para criar uma subclasse. Aqui, `MyApp` é definida como uma subclasse de `StatelessWidget`.
+    
+8.  **StatelessWidget**: Uma classe base para widgets que não mantêm estado. `MyApp` é um exemplo de `StatelessWidget`.
+    
+9.  **@override**: Uma anotação que indica que o método seguinte sobrescreve um método de uma superclasse. Aqui, indica que `build` sobrescreve um método na classe `StatelessWidget`.
+    
+10.  **Widget**: É o tipo de retorno básico para a função `build` em Flutter. Representa uma parte da interface do usuário.
+    
+11.  **build()**: Um método que descreve a parte da interface do usuário representada pelo widget. É onde a UI é construída.
+    
+12.  **BuildContext**: Um tipo de parâmetro para o método `build`. Fornece o contexto em que o widget build é chamado.
+    
+13.  **return**: Usado para retornar um valor de uma função. Aqui, retorna o widget criado pelo método `build`.
+    
+14.  **MaterialApp**: Um widget predefinido em Flutter que é geralmente usado na raiz do app para definir o tema e a navegação.
+    
+15.  **Scaffold**: Um widget que implementa a estrutura visual básica do design de material.
+    
+16.  **home**: Um parâmetro nomeado do `MaterialApp` que define a tela inicial do aplicativo.
+    
+17.  **Center**: Um widget que centraliza seu filho.
+    
+18.  **child**: Um parâmetro usado em widgets para definir um widget filho.
+    
+19.  **Text**: Um widget que mostra um texto.
+
+Cada um desses componentes desempenha um papel crucial na construção e no funcionamento de um aplicativo Flutter.
+
