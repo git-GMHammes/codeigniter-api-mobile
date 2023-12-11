@@ -65,16 +65,12 @@ class MyApp extends StatelessWidget {
                   ),
                 ],
                 // Borda para o card
-                border: Border.all(
-                    color: Colors.grey.shade300
-                ), 
+                border: Border.all(color: Colors.grey.shade300),
               ),
               child: Container(
                 decoration: BoxDecoration(
                   // Borda para o texto
-                  border: Border.all(
-                      color: Colors.grey.shade300
-                  ),
+                  border: Border.all(color: Colors.grey.shade300),
                 ),
                 // Padding adiciona espaço ao redor do Text
                 child: const Padding(
